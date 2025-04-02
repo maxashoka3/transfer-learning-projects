@@ -8,19 +8,13 @@ This project uses **Transfer Learning** with the **VGG16** model to classify **c
 ## 📂 Project Structure
 ```
 📦 pneumonia-detection
-│── models/                    # Trained model files
+│── model/                    # Trained model files
 │    ├── xray_pneumonia_model.h5
 │
-│── notebooks/                 # Jupyter notebooks for training
-│    ├── pneumonia_detection.ipynb
+│── pneumonia_detection.ipynb                # Jupyter notebooks for training
 │
 │── src/                       # Python scripts for inference & training
-│    ├── inference.py
 │    ├── train.py
-│
-│── static/                    # (Optional) Store images if needed
-│── templates/                 # (Optional) Store HTML templates (for Flask)
-│
 │── requirements.txt           # Dependencies
 │── app.py                     # Main script for Gradio app
 │── README.md                  # Project documentation
