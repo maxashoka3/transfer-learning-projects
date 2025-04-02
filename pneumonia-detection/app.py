@@ -4,7 +4,7 @@ import numpy as np
 from tensorflow.keras.preprocessing import image
 
 # Load the trained model
-model = tf.keras.models.load_model("xray_pneumonia_model.h5")
+model = tf.keras.models.load_model("model/xray_pneumonia_model.h5")
 
 # Class labels
 labels = ["Normal", "Pneumonia"]
